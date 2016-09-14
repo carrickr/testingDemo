@@ -35,7 +35,7 @@ Note: Beside having the username and password of admin account posted here, this
 Also Note: Virtual Machines often kill battery, bring a power adapter!
 
 1.  [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-1.  Download the [virtual appliance here](https://iu.box.com/s/11wuojaal8jbmk7nqzx9ptl46fc3fz61).
+1.  Download the [virtual appliance here](https://iu.box.com/s/pfa1g90g11ctmlfmjdq8zb5dkk0uo79u).
 1.  Import the appliance.  
   *  You can import by opening VirtualBox and selected `File > Import Appliance`.  Run through the steps and appliance called Statewide2016 should appear in the left hand column.  
   *  [More extensive documentation here](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
