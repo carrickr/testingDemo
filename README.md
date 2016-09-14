@@ -17,7 +17,7 @@ I highly recommend you get your dev environment setup before the session.  Curre
 
 To log into TravisCI and Coveralls.io and to push changes you make up to Github for public consumption you will need a Github account.  Without a Github account you will limited to only being able to read the code in the Github repository.  You can signup for Github [here](https://github.com/join) or via the big green `Sign Up` button on the upper right of this page.
 
-If you setup a Github repo contact me before the session so I can authorize you to write to it.
+If you setup a Github account contact me before the Statewide session so I can authorize you to write to this Github repository during the session.
 
 ## Getting A Working Rails Project
 
