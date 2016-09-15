@@ -37,15 +37,14 @@ Also Note: Virtual Machines often kill battery, bring a power adapter!
 1.  [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 1.  Download the [virtual appliance here](https://iu.box.com/s/pfa1g90g11ctmlfmjdq8zb5dkk0uo79u).
 1.  Import the appliance.  
-  *  You can import by opening VirtualBox and selected `File > Import Appliance`.  Run through the steps and appliance called Statewide2016 should appear in the left hand column.  
+  *  You can import by opening VirtualBox and selected `File > Import Appliance` to launch the import wizard.
   *  [More extensive documentation here](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
 1.  With the appliance off tweak its system settings:
-  1. Select `System Motherboard` and ensure the machine has at least 768 MB of RAM from the Base Memory Field.
   1. Right click on the appliance and select `Settings`.
   1. Select `System > Processor`.
     *  If you only have a dual core laptop assign the machine one core.
-    * Otherwise assign it at least two cores.
-  1. Select `Network` and ensure the `Attached To` field is set to `NAT`
+    * Otherwise assign it at least two cores (two to four cores is ideal, depending on your many your laptop has).
+  1. Select `Network` and ensure the `Attached To` field is set to `NAT`.  It should be by default.
 1. Start the Statewide2016 appliance by double clicking on it.  The appliance should startup and autologin to the statewide account.
 1.  In the appliance click on the terminal icon in the left hand bar.
 1. Execute the following commands:
