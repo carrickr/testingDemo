@@ -35,17 +35,18 @@ Note: Beside having the username and password of admin account posted here, this
 Also Note: Virtual Machines often kill battery, bring a power adapter!
 
 1.  [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-1.  Download the [virtual appliance here](https://iu.box.com/s/zlkrydlzwlv0g5wm3zj5jmhgcq3cdtpv).
+1.  Download the [virtual appliance here](https://iu.app.box.com/s/u2ix58gzevxjk5h3mh68004qnqb4a5xx).
 1.  Import the appliance.  
   *  You can import by opening VirtualBox and selected `File > Import Appliance` to launch the import wizard.
+  *  On the `Appliance Settings Page`:
+    *  If you only have a dual core laptop assign the machine one core.  Otherwise assign it at least two cores (two to four cores is ideal, depending on your many your laptop has).
+    * Uncheck the USB Controller box.
   *  [More extensive documentation here](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
 1.  With the appliance off tweak its system settings:
   1. Right click on the appliance and select `Settings`.
-  1. Select `System > Processor`.
-    *  If you only have a dual core laptop assign the machine one core.
-    * Otherwise assign it at least two cores (two to four cores is ideal, depending on your many your laptop has).
   1. Select `Network` and ensure the `Attached To` field is set to `NAT`.  It should be by default.
 1. Start the Statewide2016 appliance by double clicking on it.  The appliance should startup and autologin to the statewide account.
+  *  If you get Node Error it probably means you didn't uncheck the USB Controller when you were importing the appliance.  Go back to `Settings` and disable the USB Controller.
 1.  In the appliance click on the terminal icon in the left hand bar.
 1. Execute the following commands:
   1. `cd testingDemo`
