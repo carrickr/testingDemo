@@ -62,7 +62,7 @@ Also Note: Virtual Machines often kill battery, bring a power adapter!
     1. `git config --global user.email "YOUR EMAIL ADDRESS"`
     1.  See [here](https://help.github.com/articles/set-up-git/) for more documentation
     1. Configure your [SSH Keys so you can clone from git](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).  If you currently don't have a public key you will need to [generate a new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-  1. Run `git clone git@github.com:carrickr/testingDemo.git`.  Github should ask you for your password.
+  1. Run `git clone git@github.com:carrickr/testingDemo.git`.
   1. Run `cd testingDemo`
   1. Run `bundle install`
   1. Run `bundle exec rake db:migrate`
