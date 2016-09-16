@@ -38,7 +38,7 @@ Also Note: Virtual Machines often kill battery, bring a power adapter!
 1.  Download the [virtual appliance here](https://iu.app.box.com/s/u2ix58gzevxjk5h3mh68004qnqb4a5xx).
 1.  Import the appliance.  
   *  You can import by opening VirtualBox and selected `File > Import Appliance` to launch the import wizard.
-  *  On the `Appliance Settings Page`:
+  *  On the `Appliance Settings` Page during the import:
     *  If you only have a dual core laptop assign the machine one core.  Otherwise assign it at least two cores (two to four cores is ideal, depending on your many your laptop has).
     * Uncheck the USB Controller box.
   *  [More extensive documentation here](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
