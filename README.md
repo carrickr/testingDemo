@@ -35,7 +35,7 @@ Note: Beside having the username and password of admin account posted here, this
 Also Note: Virtual Machines often kill battery, bring a power adapter!
 
 1.  [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-1.  Download the [virtual appliance here](https://iu.box.com/s/pfa1g90g11ctmlfmjdq8zb5dkk0uo79u).
+1.  Download the [virtual appliance here](https://iu.box.com/s/zlkrydlzwlv0g5wm3zj5jmhgcq3cdtpv).
 1.  Import the appliance.  
   *  You can import by opening VirtualBox and selected `File > Import Appliance` to launch the import wizard.
   *  [More extensive documentation here](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
@@ -71,6 +71,7 @@ Also Note: Virtual Machines often kill battery, bring a power adapter!
 ### Installing the Project Directly
 
 1. If you don't have a github setup on your machine, [configure it](https://help.github.com/articles/set-up-git/).
+1. Configure your [SSH Keys so you can clone from git](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).  If you currently don't have a public key you will need to [generate a new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 1. Open up terminal type `ruby -v`
   1.  If you have 2.2.0 or greater skip ahead to the next step.  If the version reported is less than 2.2.0 you need to upgrade your Ruby.  The easiest way to do this is via RVM.
   1.  [Install rvm](https://rvm.io/rvm/install):
