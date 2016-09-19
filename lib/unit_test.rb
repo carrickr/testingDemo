@@ -15,8 +15,8 @@ module UnitTest
   # @param [String] convertee The string to be converted
   # @return [String] the converted string
   def hex_ascii_swapper(convertee)
-    result = to_from(convertee) if convertee[/\H/]
-    result = to_hex(convertee) unless convertee[/\H/]
+    result = from_hex(convertee) unless convertee[/\H/]
+    result = to_hex(convertee) if convertee[/\H/]
     result
   end
 
