@@ -1,6 +1,11 @@
 require 'rails_helper'
 require 'webmock/rspec'
 require 'changsha'
+
+VCR.configure do |config|
+  config.allow_http_connections_when_no_cassette = true
+end
+
 # Dummy class for containing the Changsha module during testing
 class ChangshaHua
   attr_reader :mandarin_resp, :mandarin_body, :english_resp

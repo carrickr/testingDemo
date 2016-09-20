@@ -7,6 +7,7 @@ VCR.configure do |config|
   config.cassette_library_dir = 'fixtures/vcr_cassettes'
   config.default_cassette_options = { record: :new_episodes, erb: true, re_record_interval: 21 }
   config.hook_into :webmock
+  config.allow_http_connections_when_no_cassette = false
 end
 
 # Dummy class for containing the Changsha module during testing

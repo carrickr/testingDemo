@@ -1,5 +1,11 @@
 require 'rails_helper'
 require 'changsha'
+require 'vcr'
+
+
+VCR.configure do |config|
+  config.allow_http_connections_when_no_cassette = true
+end
 
 # Dummy class for containing the Changsha module during testing
 class ChangshaHua
