@@ -120,4 +120,7 @@ The final thing is pushing your work to github.  During the session please limit
 
 # Session Slides and Other Useful stuff
 
-In progress, watch this space.
+* [Slides](https://docs.google.com/presentation/d/1Z80A9uiNfuZ5za_8flXaHhr6YL5l1qKPELfBOvNXgfI/edit?usp=sharing)
+* [Coveralls Gem Github](https://github.com/lemurheavy/coveralls-ruby) | [Coveralls Maven](https://github.com/trautonen/coveralls-maven-plugin)
+* [Webmock Gem Github](https://github.com/bblimke/webmock)
+* [VCR Gem Github](https://github.com/vcr/vcr)
