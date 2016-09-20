@@ -7,7 +7,6 @@ class ChangshaHua
 end
 
 describe 'Changsha Module' do
-
   before :each do
     @changsha = ChangshaHua.new
     @changsha.extend(Changsha)
