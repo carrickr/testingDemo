@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.changsha.gov.cn/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.0 (darwin15.6.0 x86_64) ruby/2.3.1p112
+      Timeout:
+      - '200'
+      Host:
+      - en.changsha.gov.cn
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 21 Sep 2016 15:34:54 GMT
+      Server:
+      - Apache/2.2.3 (Asianux)
+      Last-Modified:
+      - Wed, 21 Sep 2016 08:13:59 GMT
+      Etag:
+      - '"1f5c510-4ef8-208d9fc0"'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '20216'
+      Connection:
+      - close
+      Content-Type:
+      - text/html
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version:
+  recorded_at: Wed, 21 Sep 2016 16:54:55 GMT
+recorded_with: VCR 3.0.3
