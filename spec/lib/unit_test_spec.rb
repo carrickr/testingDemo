@@ -12,11 +12,11 @@ describe 'UnitTest Module' do
   end
 
   describe 'Converting from hex' do
-    xit 'can convert a string from hex to ascii' do
+    it 'can convert a string from hex to ascii' do
       expect(@unit_test.from_hex('476f20426c756521')).to match('Go Blue!')
     end
 
-    xit 'raises an error when passed a string that contains non hex characters' do
+    it 'raises an error when passed a string that contains non hex characters' do
       expect { @unit_test.from_hex('476f20426c756521-') }.to raise_error
     end
 
